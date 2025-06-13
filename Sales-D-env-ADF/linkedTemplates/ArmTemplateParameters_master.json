@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Sales-D-env-ADF"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"adls1_ls_accountKey": {
+			"value": ""
+		},
+		"adls_ls_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sql-server-mp.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "Sales_data"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "adminsql"
+		},
+		"adls1_ls_properties_typeProperties_url": {
+			"value": "https://salesdatalakem.dfs.core.windows.net/"
+		},
+		"githubserver_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
