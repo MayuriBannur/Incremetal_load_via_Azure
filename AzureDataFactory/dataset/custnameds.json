@@ -1,0 +1,17 @@
+{
+	"name": "custnameds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Customer_Data"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

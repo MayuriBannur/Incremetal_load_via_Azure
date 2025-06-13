@@ -1,0 +1,23 @@
+{
+	"name": "sales_raw_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "githubserver",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "PavanGowda1719/mayuri_sales/refs/heads/main/SalesData.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Sales-D-env-ADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b365b3a4-8640-44cd-88dc-d5c7224ec7c0",
+		"tenantId": "cdbee343-e7d2-4571-97bc-465ef810e93f"
+	}
+}
